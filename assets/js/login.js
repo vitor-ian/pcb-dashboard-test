@@ -36,7 +36,7 @@ function login(){
         
     }
     else{
-        $('#alertas').html("<div class='alert alert-danger alert-dismissible fade show'>Ocorreu um erro, entre em contato com o administrador.<button type='button' class='btn-close' data-bs-dismiss='alert'></button></div>"); 
+        $('#alertas').html("<div class='alert alert-danger alert-dismissible fade show'>Usuário não encontrado, entre em contato com o administrador.<button type='button' class='btn-close' data-bs-dismiss='alert'></button></div>"); 
         timeOut();
     }
     

@@ -127,13 +127,13 @@ h6{
 }
 
 .body-login{
-    background-image: url("../img/background.png") !important;
+    background-image: url("../img/gorila2.jpg") !important;
     background-position: center right !important;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
 }
 
 .input-login{
@@ -340,7 +340,7 @@ input[type="radio"]:hover{
 }
 
 .name-cartao{
-    font-size: 90px;
+    font-size: 60px;
     color: white;
     font-weight: 900;
     margin-bottom: 0 !important;
@@ -352,7 +352,7 @@ input[type="radio"]:hover{
 
 .cargo-cartao{
     position: absolute;
-    top: 110px;
+    top: 70px;
 }
 
 .ativado{
@@ -443,7 +443,6 @@ input[type="radio"]:hover{
 }
 
 .bg-sc-login{
-    background-color: var(--background-grey);
     width: 25%;
     height: 100vh;
 
@@ -619,12 +618,16 @@ input[type="radio"]:hover{
 .footer{
     position: absolute;
     bottom: 0px;
-    color: rgb(114, 114, 114);
+    color: white;
 }
 
 .footer a{
-    color: rgb(114, 114, 114) !important;
+    color: white !important;
     text-decoration: underline !important;
+}
+
+.txt-login{
+    text-align: center;
 }
 
 /*telefone*/

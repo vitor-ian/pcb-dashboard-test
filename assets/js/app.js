@@ -11,8 +11,9 @@ var user = atob(user_cripto);
 var user_obj = JSON.parse(user);
 
 $(".user-nome").html(user_obj.nick);
-$(".user-cargo").html(user_obj.cargo);
+$(".user-cargo").html(user_obj.titulo);
 $(".user-data").html(user_obj.data);
+$(".user-fist-name").html(user_obj.fist_name);
 
 
 

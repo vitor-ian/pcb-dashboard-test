@@ -39,10 +39,6 @@ function login(){
         timeOut();
     }
     
-    
-    //verificar se o username existe
-    //if(username)
-
 }
 
 function timeOut(){

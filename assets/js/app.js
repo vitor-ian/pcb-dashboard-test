@@ -4,6 +4,9 @@ var nome_cartao = document.getElementById("nome-do-cartao");
 
 //user
 var user_cripto = localStorage.getItem("user");
+if(user_cripto == null){
+    window.location.href = "login.html"
+}
 var user = atob(user_cripto);
 var user_obj = JSON.parse(user);
 

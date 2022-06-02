@@ -713,6 +713,15 @@ input[type="radio"]:hover{
     h1{
         font-size: 70px !important;
     }
+
+    .icon-menu{
+        padding: 0 !important;
+    }
+    
+    .nav-tabs{
+        justify-content: space-around !important;
+        width: 100%;
+    }
 }
 
 /*desck*/
@@ -731,5 +740,14 @@ input[type="radio"]:hover{
 
     h1{
         font-size: 100px !important;
+    }
+
+    .icon-menu{
+        padding: 0 !important;
+    }
+    
+    .nav-tabs{
+        justify-content: space-around !important;
+        width: 100%;
     }
 }

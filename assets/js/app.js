@@ -1,41 +1,40 @@
-var menu = document.getElementById("ct-menu");
+//cartao
 var cartao = document.getElementById("cartao");
-var nome = document.getElementById("nome-do-cartao");
+var nome_cartao = document.getElementById("nome-do-cartao");
 
-//abrir menu
-$("#abrir-menu").click(function(){
-    $("#menu-lat").animate({left: '0px'});
-});
+//user
+var user_cripto = localStorage.getItem("user");
+var user = atob(user_cripto);
+var user_obj = JSON.parse(user);
 
-//fechar menu
-$("#fechar-menu").click(function(){
-    $("#menu-lat").animate({left: '-400px'});
-});
-
+$(".user-nome").html(user_obj.nick);
+$(".user-cargo").html(user_obj.cargo);
+$(".user-data").html(user_obj.data);
 
 
-//cards
+
+//trocar cards
 //basic
 document.getElementById("basic").addEventListener("click", function() {
     $(cartao).removeClass();
     $(cartao).addClass('cartao box');
-    $(nome).html("Basic");
+    $(nome_cartao).html("Basic");
 });
 //gold
 document.getElementById("gold").addEventListener("click", function() {
     $(cartao).removeClass();
     $(cartao).addClass('cartao box cartao-gold');
-    $(nome).html("Gold");
+    $(nome_cartao).html("Gold");
 });
 //platinum
 document.getElementById("platinum").addEventListener("click", function() {
     $(cartao).removeClass();
     $(cartao).addClass('cartao box cartao-platinum');
-    $(nome).html("Platinum");
+    $(nome_cartao).html("Platinum");
 });
 //premium
 document.getElementById("premium").addEventListener("click", function() {
     $(cartao).removeClass();
     $(cartao).addClass('cartao box cartao-premium');
-    $(nome).html("Premium");
+    $(nome_cartao).html("Premium");
 });

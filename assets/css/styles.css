@@ -653,6 +653,48 @@ input[type="radio"]:hover{
 
     .ct-02{
         width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .icon-menu{
+        padding: 0 !important;
+    }
+    
+    .nav-tabs{
+        justify-content: space-around !important;
+        width: 100%;
+    }
+
+    .menu-princ{
+        padding: 20px;
+    }
+
+    .ct-produto{
+        width: 100%;
+    }
+
+    .ct-wallpaper{
+        width: 100%;
+    }
+
+    .box-rol::-webkit-scrollbar {
+        display: none;
+    }
+
+    h1{
+        font-size: 50px !important;
+    }
+
+    h2{
+        font-size: 30px !important;
+    }
+
+    .medalhas-profile i{
+        font-size: 60px;
+    }
+
+    .bnt-01{
+        padding: 5px 15px;
     }
 }
 
@@ -668,6 +710,10 @@ input[type="radio"]:hover{
 
     .teste{
         width: 80%;
+    }
+
+    .ct-wallpaper{
+        width: calc(100% - 100px);
     }
 }
 

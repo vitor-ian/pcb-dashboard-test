@@ -7,7 +7,7 @@ localStorage.clear();
 let users = [
     {id: 1, nick: 'Nairo', name: 'nairo', senha: "123", cargo: "Administrador", medalha: "1", data: "01/06/2022"},
     {id: 2, nick: 'Baiano', name: 'baiano', senha: "123", cargo: "Membro", medalha: "1", data: "02/06/2022"},
-    {id: 2, nick: 'DominouSX', name: 'xitao', senha: "123", cargo: "Moderador", medalha: "1", data: "02/06/2022"},
+    {id: 3, nick: 'DominouSX', name: 'xitao', senha: "123", cargo: "Moderador", medalha: "1", data: "02/06/2022"},
 ];
 
 function login(){

@@ -128,7 +128,7 @@ h6{
 
 .body-login{
     background-image: url("../img/gorila2.jpg") !important;
-    background-position: center right !important;
+    background-position: top center !important;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

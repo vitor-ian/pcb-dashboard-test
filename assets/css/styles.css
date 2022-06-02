@@ -301,7 +301,7 @@ input[type="radio"]:hover{
     border-radius: 20px;
     background-image: url("../img/cartao/basic.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center right;
     background-size: cover;
     transition: .6s ease;
 
@@ -765,7 +765,7 @@ input[type="radio"]:hover{
     }
 
     h1{
-        font-size: 100px !important;
+        font-size: 70px !important;
     }
 
     .icon-menu{

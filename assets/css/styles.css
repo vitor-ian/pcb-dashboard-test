@@ -694,6 +694,10 @@ input[type="radio"]:hover{
     .logo-login{
         display: none;
     }
+
+    .footer{
+        display: none;
+    }
 }
 
 /*tablet*/
@@ -728,6 +732,10 @@ input[type="radio"]:hover{
     }
 
     .logo-login{
+        display: flex;
+    }
+
+    .footer{
         display: flex;
     }
 }

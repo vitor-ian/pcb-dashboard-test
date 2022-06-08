@@ -9,6 +9,7 @@ let users = [
     {id: 2, nick: 'Sde', fist_name: "Edson Barbosa", name: 'saudades', senha: "123", titulo: "Cearense", insignia: "1", data: "01/01/2016"},
     {id: 3, nick: 'DominouSX', fist_name: "Washington Araujo", name: 'xitao', senha: "123", titulo: "O Canalha", insignia: "1", data: "01/01/2016"},
     {id: 4, nick: 'Baiano', fist_name: "Matheus Souza", name: 'baiano', senha: "123", titulo: "Cê não ta entendendo", insignia: "1", data: "01/01/2018"},
+    {id: 5, nick: 'Dersin', fist_name: "Wederson", name: 'dersin', senha: "123", titulo: "Chamber", insignia: "1", data: "01/01/2016"},
 ];
 
 function login(){
